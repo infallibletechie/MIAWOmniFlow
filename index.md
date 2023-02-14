@@ -5,9 +5,8 @@
                 try {
                     embeddedservice_bootstrap.settings.language = "en";
 
-                    window.addEventListener("onEmbeddedMessagingReady", () => {
+                    window.addEventListener("onEmbeddedMessagingReady", () => {            
                         console.log( "Inside Prechat API!!" );
-
                         embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Order_Number" : "Test123" } );
                     });
 
