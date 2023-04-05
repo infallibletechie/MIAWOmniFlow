@@ -6,7 +6,7 @@
                     embeddedservice_bootstrap.settings.language = "en";
 
                     window.addEventListener("onEmbeddedMessagingReady", () => {            
-                        console.log( "Inside Prechat API!!" );
+                        console.log( "Inside Prechat API!!!" );
                         embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Order_Number" : "Test123" } );
                         embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields( { "Email" : "test@test.com" } );
                     });
