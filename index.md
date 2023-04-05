@@ -12,7 +12,8 @@
             
                     embeddedservice_bootstrap.autoResponseAPI.setAutoResponseParameters( {
                         console.log( "Inside Auto Response!!!" );
-                        "Email" : "test@test.com"
+                        "Email" : "test@test.com",
+                        "Subject" : "Test Case"
                     } );
 
                     embeddedservice_bootstrap.init( "00D8Z000000sp44", "Messaging_for_In_App_and_Web_GitHub_with_Omni_Flow", "https://infallibletechiemiaw.my.site.com/ESWMessagingforInAppa1676401841646", {
