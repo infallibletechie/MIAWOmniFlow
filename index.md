@@ -11,7 +11,6 @@
                     });
             
                     embeddedservice_bootstrap.autoResponseAPI.setAutoResponseParameters( {
-                        console.log( "Inside Auto Response!!!" );
                         "Email" : "test@test.com",
                         "Subject" : "Test Case"
                     } );
